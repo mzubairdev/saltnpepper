@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@200;300;400&family=Rubik+Wet+Paint&display=swap');
 
+@font-face {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+}
+
+@font-face {
+    font-family: apercu;
+    src: url(../fonts/apercu.ttf);
+}
+
 html {
     font-family: Poppins;
     font-weight: 400;
@@ -65,4 +75,34 @@ html {
     margin-left: 2px;
     border-radius: 20px;
 }
+
 /* navbar ended */
+
+/* our brands started */
+.heading {
+    margin: 50px auto;
+}
+
+.heading-brand {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.futurak-font {
+    font-family: futurak;
+    font-size: 5.2rem;
+}
+
+.para-brand {
+    font-size: 1.6rem;
+    font-family: apercu;
+    color: #ffffffb3;
+    font-weight: 200;
+}
+
+.brand-img {
+    width: 250px;
+    border-radius: 2px;
+}
+
+/* our brands ended */
