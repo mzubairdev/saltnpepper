@@ -1,0 +1,11 @@
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --red: #ed1c24;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #0f0f0f;
+    --green: #28a745;
+}
