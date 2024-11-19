@@ -11,6 +11,7 @@
 }
 
 html {
+    font-size: 62.5%;
     font-family: Poppins;
     font-weight: 400;
     font-style: normal;
@@ -20,10 +21,6 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
 }
 
 :root {
@@ -75,17 +72,17 @@ html {
     margin-left: 2px;
     border-radius: 20px;
 }
-
 /* navbar ended */
 
 /* our brands started */
 .heading {
     margin: 50px auto;
+    font-family: apercu;
 }
 
 .heading-brand {
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .futurak-font {
@@ -95,14 +92,28 @@ html {
 
 .para-brand {
     font-size: 1.6rem;
-    font-family: apercu;
     color: #ffffffb3;
     font-weight: 200;
+    margin-bottom: -10px;
+    letter-spacing: 0.5px;
 }
 
 .brand-img {
-    width: 250px;
-    border-radius: 2px;
+    width: 257px;
+    border-radius: 5px;
+}
+
+.order-brand-btn {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid #ffffffb3;
+    width: 174px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
 }
 
 /* our brands ended */
