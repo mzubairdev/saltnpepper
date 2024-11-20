@@ -1,20 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@200;300;400&family=Rubik+Wet+Paint&display=swap');
-
-@font-face {
-    font-family: futurak;
-    src: url(../fonts/futurak.ttf);
-}
-
-@font-face {
-    font-family: apercu;
-    src: url(../fonts/apercu.ttf);
-}
-
-@font-face {
-    font-family: butler;
-    src: url(../fonts/butler.ttf);
-}
-
 html {
     font-size: 62.5%;
     font-family: Poppins;
@@ -38,11 +21,10 @@ html {
 
 /* navbar started */
 .logo-img {
-    width: 165px;
-}
+    width: 160px;
+    height: 75.45;
+    cursor: pointer;
 
-.nav-items {
-    font-size: 1.6rem;
 }
 
 .franchise-btn {
@@ -74,40 +56,34 @@ html {
 .icon-bg {
     background-color: var(--white);
     padding: 4px 8px;
-    margin-left: 2px;
+    margin-left: 5px;
     border-radius: 20px;
 }
+
 /* navbar ended */
 
+/* carousel started  */
+
+.carouselimg {
+    cursor: pointer;
+}
+
+/* carousel ended  */
+
 /* our brands started */
-
-.heading {
-    margin: 50px 0;
-    font-family: apercu;
-}
-
-.heading-brand {
-    font-size: 4rem;
-    font-weight: 100;
-}
-
-.futurak-font {
-    font-family: futurak;
-    font-size: 5.2rem;
-    font-weight: 100;
-}
-
 .para-brand {
     font-size: 1.6rem;
-    color: #ffffffb3;
+    color: rgba(255, 255, 255, 0.702);
     font-weight: 200;
     letter-spacing: 0.5px;
-    line-height: 20px;
+    line-height: 40px;
 }
 
 .brand-img {
     width: 257px;
     border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
 .order-brand-btn {
@@ -117,10 +93,16 @@ html {
     width: 174px;
     height: 50px;
     border-radius: 30px;
-    font-size: 1.6rem;
-    cursor: pointer;
+    font-size: 1.4rem;
     font-family: inherit;
     font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.cursor-none {
+    cursor: default;
+
 }
 
 /* our brands ended */
@@ -130,22 +112,40 @@ html {
     background: rgba(255, 255, 255, 0.06);
 }
 
-.butler-font {
-    font-family: butler;
-    font-size: 48px;
-    font-weight: 600;
+.bg-image {
+    position: absolute;
+    top: 29px;
+    right: 17px;
+    z-index: 1;
+    padding: 5px;
+    /* opacity: 0.3; */
 }
 
 .position-relative {
     position: relative;
 }
 
-.bg-image {
-    position: absolute;
-    top: 50px;
-    right: 0;
-    z-index: 1;
-    /* opacity: 0.3; */
+.small-head {
+    font-size: 1.6rem;
+    font-family: apercu;
+    color: var(--red);
+    letter-spacing: 7px;
+    line-height: 2rem;
+    /* font-weight: normal; */
+}
+
+/* .style-address {
+    font-style: normal;
+    line-height: 50px;
+
+} */
+address p {
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    font-size: 1.6rem;
+    font-family: apercu;
+    color: rgba(255, 255, 255, 0.702);
 }
 
 /* Our franchises ended */
