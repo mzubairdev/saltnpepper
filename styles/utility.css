@@ -1,4 +1,3 @@
-
 /* utility classes */
 /* Flexbox */
 .d-flex {
@@ -15,6 +14,10 @@
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
 }
 
 .justify-between {
@@ -124,6 +127,10 @@
     margin-top: 50px;
 }
 
+.mt-8 {
+    margin-top: 80px;
+}
+
 /* Margin bottom */
 .mb-1 {
     margin-bottom: 10px;
@@ -143,6 +150,10 @@
 
 .mb-5 {
     margin-bottom: 50px;
+}
+
+.mb-7 {
+    margin-bottom: 70px;
 }
 
 /* Margin left */
@@ -303,7 +314,7 @@
 
 .bg-white {
     background-color: #ffffff;
-}   
+}
 
 .w-100 {
     width: 100%;

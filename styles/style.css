@@ -10,6 +10,11 @@
     src: url(../fonts/apercu.ttf);
 }
 
+@font-face {
+    font-family: butler;
+    src: url(../fonts/butler.ttf);
+}
+
 html {
     font-size: 62.5%;
     font-family: Poppins;
@@ -75,8 +80,9 @@ html {
 /* navbar ended */
 
 /* our brands started */
+
 .heading {
-    margin: 50px auto;
+    margin: 50px 0;
     font-family: apercu;
 }
 
@@ -88,14 +94,15 @@ html {
 .futurak-font {
     font-family: futurak;
     font-size: 5.2rem;
+    font-weight: 100;
 }
 
 .para-brand {
     font-size: 1.6rem;
     color: #ffffffb3;
     font-weight: 200;
-    margin-bottom: -10px;
     letter-spacing: 0.5px;
+    line-height: 20px;
 }
 
 .brand-img {
@@ -117,3 +124,28 @@ html {
 }
 
 /* our brands ended */
+
+/* Our franchises started */
+.bg-gradient {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.butler-font {
+    font-family: butler;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.bg-image {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 1;
+    /* opacity: 0.3; */
+}
+
+/* Our franchises ended */
