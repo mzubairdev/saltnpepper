@@ -99,6 +99,10 @@ html {
   gap: 50px;
 }
 
+.gap-7 {
+  gap: 70px;
+}
+
 /* extra classes */
 
 .text-center {
@@ -269,6 +273,10 @@ html {
 /* padding top */
 .pt-1 {
   padding-top: 10px;
+}
+
+.pt-16 {
+  padding-top: 16px;
 }
 
 .pt-2 {
