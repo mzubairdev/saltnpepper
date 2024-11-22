@@ -410,3 +410,9 @@ html {
 .fw-6 {
   font-weight: 600;
 }
+
+/* font space */
+
+.f-space {
+  letter-spacing: 2px;
+}
