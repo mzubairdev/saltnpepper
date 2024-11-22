@@ -184,8 +184,34 @@ address p {
   border: 1px solid var(--green);
 }
 
-.arrow-icon {
+.arrow-icon2 {
   color: var(--green);
 }
-
 /* Village Franchise ended  */
+
+/* Express Franchises (opning soon) started */
+.open-soon {
+  background-color: var(--white);
+  width: 370px;
+  height: 250px;
+  padding: 25px 24px;
+  border-radius: 5px;
+}
+
+.pera-opn-soon {
+  color: var(--red);
+  letter-spacing: 3px;
+}
+
+.font-brand {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+.brand-loaction{
+  color: var(--black);
+  font-weight: normal;
+  font-size: 2.1rem;
+  font-family: apercu;
+}
+/* Express Franchises (opning soon) ended */
