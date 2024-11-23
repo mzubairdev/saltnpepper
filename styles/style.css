@@ -133,6 +133,7 @@ address p {
   flex-direction: row;
   justify-content: space-around;
 }
+
 /* Our franchises ended */
 
 /* our express franchise started */
@@ -165,6 +166,7 @@ address p {
   height: 80%;
   padding: 40px 0 0 50px;
 }
+
 /* our express franchise ended*/
 
 /* Village Franchise started  */
@@ -187,6 +189,7 @@ address p {
 .arrow-icon2 {
   color: var(--green);
 }
+
 /* Village Franchise ended  */
 
 /* Express Franchises (opning soon) started */
@@ -208,12 +211,14 @@ address p {
   font-weight: bold;
   font-size: 2.4rem;
 }
+
 .brand-loaction {
   color: var(--black);
   font-weight: normal;
   font-size: 2.1rem;
   font-family: apercu;
 }
+
 /* Express Franchises (opning soon) ended */
 
 /* social-feed started */
@@ -264,4 +269,5 @@ ul li {
   font-size: 1.4rem;
   font-weight: bold;
 }
+
 /* social-feed ended */

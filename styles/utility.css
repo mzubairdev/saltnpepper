@@ -12,9 +12,8 @@
 
 @font-face {
   font-family: butler;
-  src: url(../fonts/butler.ttf);
+  src: url(../fonts/Butler.ttf);
 }
-
 
 * {
   margin: 0;
@@ -376,6 +375,7 @@ html {
 .fs-32 {
   font-size: 3.2rem;
 }
+
 .fs-26 {
   font-size: 2.6rem;
 }
@@ -391,6 +391,7 @@ html {
 .fs-16 {
   font-size: 1.6rem;
 }
+
 .fs-14 {
   font-size: 1.4rem;
 }
