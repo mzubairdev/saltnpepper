@@ -8,6 +8,11 @@
 }
 
 /* navbar started */
+.nav-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.067);
+  margin-bottom: 70px;
+}
+
 .logo-img {
   width: 160px;
   height: 75.45;
@@ -50,9 +55,8 @@
 /* navbar ended */
 /* introduction started */
 .p-border {
-    padding: 0 100px;
+  padding: 0 100px;
 }
-
 
 .intro-para {
   color: rgba(255, 255, 255, 0.702);
@@ -62,5 +66,65 @@
   line-height: 21px;
   letter-spacing: 0.9px;
 }
-
 /* introduction enedd */
+
+/* restaurant section started */
+.main-head {
+  text-align: start;
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: futurak;
+}
+.main-head2 {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: futurak;
+}
+.rest-para {
+  color: rgba(255, 255, 255, 0.702);
+  font-size: 1.4rem;
+  font-family: apercu;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-align: start;
+  width: 535px;
+}
+div>img {
+  width: 550px;
+}
+/* restaurant section ended */
+
+/* Salt'n Pepper Express started */
+.express-para {
+  color: rgba(255, 255, 255, 0.702);
+  font-size: 1.4rem;
+  font-family: apercu;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.exp-container{
+    background-color: var(--grey);
+    border-radius: 10px;
+    width: 430px;
+    height: 420px;
+}
+
+.exp-container img {
+  width: 350px;
+  height: 280px;
+}
+
+.exp-container h1 {
+  font-size: 1.6rem;
+  font-family: poppins;
+  padding-top: 10px;
+}
+
+.express-p {
+  padding: 0 90px;
+}
+
+/* Salt'n Pepper Express ended */
