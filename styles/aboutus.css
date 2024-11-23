@@ -90,7 +90,7 @@
   text-align: start;
   width: 535px;
 }
-div>img {
+div > img {
   width: 550px;
 }
 /* restaurant section ended */
@@ -105,11 +105,11 @@ div>img {
   text-align: center;
 }
 
-.exp-container{
-    background-color: var(--grey);
-    border-radius: 10px;
-    width: 430px;
-    height: 420px;
+.exp-container {
+  background-color: var(--grey);
+  border-radius: 10px;
+  width: 430px;
+  height: 420px;
 }
 
 .exp-container img {
@@ -128,3 +128,27 @@ div>img {
 }
 
 /* Salt'n Pepper Express ended */
+
+/* Village Franchise satrted */
+.village-p {
+  padding: 0 150px;
+}
+
+.village-para {
+  color: rgba(255, 255, 255, 0.172);
+  font-size: 1.6rem;
+  font-family: apercu;
+  margin-bottom: 15px;
+  line-height: 21px;
+  letter-spacing: 0.9px;
+}
+
+.village-address {
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  font-size: 1.6rem;
+  font-family: apercu;
+  color: rgba(255, 255, 255, 0.702);
+}
+/* Village Franchise ended */
