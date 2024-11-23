@@ -53,6 +53,36 @@
 }
 /* navbar ended */
 
+/* publications content started */
+.publication-border {
+  border: 1px solid #ffffff52;
+  width: 680px;
+  height: 700px;
+  padding-top: 40px;
+  margin-bottom: 100px;
+}
+
+.publication-border img {
+  width: 100%;
+}
+
+.branch-head {
+  font-size: 3.2rem;
+  font-family: butler;
+}
+
+.branch-head-sm {
+  font-size: 1.6rem;
+  font-family: poppins;
+}
+.branch-head-mini {
+  font-size: 1.4rem;
+  font-family: apercu;
+  color: #ffffffb3;
+  line-height: 20px;
+}
+/* publications content ended */
+
 /* social-feed started */
 .bg-gradient {
   background: rgba(255, 255, 255, 0.06);
