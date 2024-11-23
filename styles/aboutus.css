@@ -90,9 +90,6 @@
   text-align: start;
   width: 535px;
 }
-div > img {
-  width: 550px;
-}
 /* restaurant section ended */
 
 /* Salt'n Pepper Express started */
@@ -123,10 +120,6 @@ div > img {
   padding-top: 10px;
 }
 
-.express-p {
-  padding: 0 90px;
-}
-
 /* Salt'n Pepper Express ended */
 
 /* Village Franchise satrted */
@@ -152,3 +145,63 @@ div > img {
   color: rgba(255, 255, 255, 0.702);
 }
 /* Village Franchise ended */
+
+/* social-feed started */
+.bg-gradient {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.logo-img {
+  width: 160px;
+  height: 75.45px;
+  cursor: pointer;
+}
+
+.bg-image3 {
+  position: absolute;
+  left: 25px;
+  padding-top: 110px;
+  width: 330px;
+}
+
+.social-feed {
+  font-size: 3.2rem;
+  font-family: butler;
+  color: var(--grey);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pera-footer-font {
+  font-size: 1.4rem;
+  font-family: apercu;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 1.4rem;
+  font-family: apercu;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 16px;
+}
+
+.footer-social-links {
+  background-color: var(--red);
+  border-radius: 50px;
+  padding: 9px 15px;
+  text-align: center;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.copy-right {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+/* social-feed ended */
