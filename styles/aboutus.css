@@ -15,7 +15,7 @@
 
 .logo-img {
   width: 160px;
-  height: 75.45;
+  height: 75.45px;
   cursor: pointer;
 }
 
@@ -149,12 +149,6 @@
 /* social-feed started */
 .bg-gradient {
   background: rgba(255, 255, 255, 0.06);
-}
-
-.logo-img {
-  width: 160px;
-  height: 75.45px;
-  cursor: pointer;
 }
 
 .bg-image3 {
