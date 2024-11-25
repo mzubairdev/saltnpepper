@@ -51,6 +51,7 @@
   margin-left: 5px;
   border-radius: 20px;
 }
+
 /* navbar ended */
 
 /* publications content started */
@@ -75,13 +76,16 @@
   font-size: 1.6rem;
   font-family: poppins;
 }
+
 .branch-head-mini {
   font-size: 1.4rem;
   font-family: apercu;
   color: #ffffffb3;
   line-height: 20px;
 }
+
 /* publications content ended */
+
 /* social-feed started */
 .bg-gradient {
   background: rgba(255, 255, 255, 0.06);
@@ -134,4 +138,5 @@ ul li {
   font-size: 1.4rem;
   font-weight: bold;
 }
+
 /* social-feed ended */

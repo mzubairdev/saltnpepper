@@ -21,6 +21,11 @@
   box-sizing: border-box;
 }
 
+body {
+  /* width: fit-content; */
+  /* overflow-x: hidden; */
+}
+
 html {
   font-size: 62.5%;
   font-family: Poppins;
@@ -313,6 +318,9 @@ html {
 
 .pb-5 {
   padding-bottom: 50px;
+}
+.pb-6 {
+  padding-bottom: 60px;
 }
 
 /* Padding left */
