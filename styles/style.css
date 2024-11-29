@@ -138,33 +138,30 @@ address p {
   flex-direction: row;
   justify-content: space-around;
 }
-
 /* Our franchises ended */
 
 /* our express franchise started */
 .d-express-set {
-  margin: 0 67px;
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding: 0 50px;
+  flex-wrap: wrap;
   margin-top: 30px;
   text-align: center;
 }
 
 .express-cont {
-  width: 33.333%;
+  width: 370px;
 }
 
 .express-img {
   width: 100%;
-  height: 40%;
+  height: 200px
 }
 
 .bg-image2 {
   position: absolute;
-  width: 100%;
-  height: 80%;
+  width: 105%;
   padding: 40px 0 0 50px;
 }
 /* our express franchise ended*/
@@ -197,32 +194,22 @@ address p {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  justify-content: space-between;
-  padding: 16px 10% 16px 10%;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* padding: 22px; */
+  /* padding: 16px 10% 16px 10%; */
 }
 
 .box {
-  flex: 1 1 calc(33.33% - 16px); /* 1=> Grow, 1=> Shrink, Default 3 items per row */
+  /* flex: 1 1 calc(33.33% - 16px);  */
+  width: 350px;
+  height: 250px;
   background-color: #ffff;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
   border-radius: 8px;
-  min-width: 250px; /* Ensures items shrink to a minimum width */
-}
-
-.container:last-child .box {
-  flex: 1 1 calc(33.33% - 16px); /* Maintain 33.33% width */
-  max-width: calc(33.33% - 16px);
-  margin: auto;
-}
-
-.open-soon {
-  background-color: var(--white);
-  width: 370px;
-  height: 250px;
-  padding: 25px 24px;
-  border-radius: 5px;
+  /* min-width: 250px;  */
 }
 
 .pera-opn-soon {
